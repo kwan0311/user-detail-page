@@ -13,8 +13,9 @@ class SelectGenderPage extends StatelessWidget {
             decoration: const BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                  Color(0xb8280549),
-                  Color(0xfffd5d14),
+                  Color(0xff380E4A),
+                  Color(0xFFE87461)
+           
                 ],
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
@@ -76,7 +77,7 @@ class SelectGenderPage extends StatelessWidget {
                                 width: 145,
                                 height: 180,
                                 decoration: BoxDecoration(
-                                  color: Colors.lightBlue,
+                                  color: Colors.deepPurpleAccent,
                                   borderRadius: BorderRadius.circular(16),
                                 ),
                                 alignment: Alignment.center,
